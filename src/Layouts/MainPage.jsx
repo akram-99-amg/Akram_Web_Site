@@ -8,11 +8,12 @@ import Contact from '../Components/pages/Contact'
 
 const MainPage = () => {
   return (
-    <div className=' min-h-screen bg-gray-800'>
+    <div className='min-w-screen min-h-screen bg-gray-800'>
         <div>
           <NavBar />
           <Home />
           <About />
+          <Skills />
         </div>
       
     </div>

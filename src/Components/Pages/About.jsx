@@ -2,19 +2,25 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='w-min-screen flex flex-row-reverse  text-white px-[150px] '>
-      <div className='flex flex-col '>
-        <div className='w-96 text-lg mb-8 text-justify'>
-          My name is Mazegh Akram, a graduate in commercial sciences specializing in management. I have gained valuable experience in management,
-          accounting, and digital marketing through various internships and jobs. Passionate about technology,
-          I am proficient in several programming languages and design tools. I am always looking for new opportunities to learn and collaborate.
+    <div className='px-2 flex flex-col-reverse gap-9 items-center sm:flex-row-reverse sm:justify-around text-white  '> 
+        <div className='flex flex-col '>
+          <div className='w-96 text-lg mb-8 text-justify'>
+            I'm a graduate in commercial sciences specializing in management. I have gained valuable experience in management,
+            accounting, and digital marketing through various internships and jobs. Passionate about technology,
+            I am proficient in several programming languages and design tools. I am always looking for new opportunities to learn and collaborate.
+          </div>
+          <ul className='text-lg'>
+            <li>Name : Akram Mazegh</li>
+            <li>Address : Ottawa, Canada </li>
+            <li>E-mail : mazakram04@gmail.com</li>
+          </ul>
         </div>
-        <ul className='text-lg'>
-          <li>Name : Akram Mazegh</li>
-          <li>Address : Ottawa, Canada </li>
-          <li>e-mail : mazakram04@gmail.com</li>
-        </ul>
-      </div>
+        <img
+        src="Images/ak.jpg"
+        alt="ak"
+        className='sm:w-80 sm:h-96 w-64 rounded-lg'
+        />
+      
     </div>
   )
 }
