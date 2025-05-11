@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='px-2 flex flex-col-reverse gap-9 items-center sm:flex-row-reverse sm:justify-around text-white  '> 
+    <div className='px-2 flex flex-col-reverse gap-9 items-center sm:flex-row-reverse sm:justify-around text-white   '> 
         <div className='flex flex-col '>
           <div className='w-96 text-lg mb-8 text-justify'>
             I'm a graduate in commercial sciences specializing in management. I have gained valuable experience in management,
