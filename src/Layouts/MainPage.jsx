@@ -1,9 +1,8 @@
-import React from 'react'
 import NavBar from '../Components/Pages/NavBar'
-import Home from '../Components/pages/Home'
-import Skills from '../Components/pages/Skills'
-import About from '../Components/pages/About'
-import Contact from '../Components/pages/Contact'
+import Home from '../Components/Pages/Home'
+import Skills from '../Components/Pages/Skills'
+import About from '../Components/Pages/About'
+import Contact from '../Components/Pages/Contact'
 
 
 const MainPage = () => {
@@ -14,6 +13,7 @@ const MainPage = () => {
           <Home />
           <About />
           <Skills />
+          <Contact />
         </div>
       
     </div>
