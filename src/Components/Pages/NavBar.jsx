@@ -14,7 +14,7 @@ const NavBar = () => {
         <p>Akram Mazegh</p>
         <FontAwesomeIcon
           icon={faBars}
-          className='sm:hidden cursor-pointer'
+          className='sm:hidden hover:text-blue-200 focus:text-blue-200 cursor-pointer text-3xl'
           onClick={() => setMenu(!menu)}
         />
       </div>
@@ -46,42 +46,52 @@ const NavBar = () => {
           </li>
 
           <li className='hover:text-blue-400 cursor-pointer'>
-            My CV
+            <a
+              href="/CV/CV.pdf"
+              download >
+              My CV
+            </a>
+
+
+
+
           </li>
         </ul>
       </div>
 
 
       {menu && (
-        <ul className=' pt-16 fixed top-0 left-0 -z-40 flex flex-col items-center gap-5 py-4 w-screen text-lg sm:hidden bg-gray-700 rounded-md '>
-          <li className='hover:text-blue-400 cursor-pointer'>
-            <Link to="home" smooth={true} duration={500} >
-              Home
-            </Link>
-          </li>
-
-          <li className='hover:text-blue-400 cursor-pointer'>
-            <Link to="about" smooth={true} duration={500} >
-              About
-            </Link>
-          </li>
-
-          <li className='hover:text-blue-400 cursor-pointer'>
-            <Link to="skills" smooth={true} duration={500} >
-              Skills
-            </Link>
-          </li>
-
-          <li className='hover:text-blue-400 cursor-pointer'>
-            <Link to="contact" smooth={true} duration={500} >
-              Contact
-            </Link>
-          </li>
-
-          <li className='hover:text-blue-400 cursor-pointer'>
-            My CV
-          </li>
-        </ul>
+        
+          <ul className=' pt-16 fixed top-0  -z-40 flex flex-col items-center justify-center gap-5 py-4 w-screen text-lg sm:hidden bg-gray-700 rounded-lg '>
+            <li className='hover:text-blue-400 hover:bg-blue-100 focus:bg-blue-100 w-[80%] h-7 text-center rounded-md  cursor-pointer '>
+              <Link to="home" smooth={true} duration={500} >
+                Home
+              </Link>
+            </li>
+            <li className='hover:text-blue-400 hover:bg-blue-100 focus:bg-blue-100 w-[80%] h-7 text-center rounded-md cursor-pointer'>
+              <Link to="about" smooth={true} duration={500} >
+                About
+              </Link>
+            </li>
+            <li className='hover:text-blue-400 hover:bg-blue-100 focus:bg-blue-100 w-[80%] h-7 text-center rounded-md cursor-pointer'>
+              <Link to="skills" smooth={true} duration={500} >
+                Skills
+              </Link>
+            </li>
+            <li className='hover:text-blue-400 hover:bg-blue-100 focus:bg-blue-100 w-[80%] h-7 text-center rounded-md cursor-pointer'>
+              <Link to="contact" smooth={true} duration={500} >
+                Contact
+              </Link>
+            </li>
+            <li className='hover:text-blue-400 hover:bg-blue-100 focus:bg-blue-100 w-[80%] h-7 text-center rounded-md cursor-pointer'>
+              <a
+                href="/CV/CV.pdf"
+                download >
+                My CV
+              </a>
+            </li>
+          </ul>
+        
       )}
 
 
