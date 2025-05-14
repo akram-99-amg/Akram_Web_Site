@@ -47,7 +47,7 @@ const Skills = () => {
             to="https://react.dev/"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-white border-2 border-white flex  flex-col items-center gap-2 py-4'>
+            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-4'>
             <FontAwesomeIcon
               icon={faReact}
               className='text-8xl' />
@@ -58,7 +58,7 @@ const Skills = () => {
             to="https://tailwindcss.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-white border-2 border-white flex flex-col justify-center items-center gap-2 py-4'>
+            className='text-white border-2 border-white rounded-md flex flex-col justify-center items-center gap-2 py-4'>
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -79,7 +79,7 @@ const Skills = () => {
             to="https://git-scm.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-white border-2 border-white flex  flex-col items-center gap-2 py-4'>
+            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-4'>
             <FontAwesomeIcon
               icon={faGitAlt}
               className='text-8xl' />
@@ -90,7 +90,7 @@ const Skills = () => {
             to="https://github.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-white border-2 border-white flex  flex-col items-center gap-2 py-4'>
+            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-4'>
             <FontAwesomeIcon
               icon={faGithub}
               className='text-8xl' />
@@ -102,7 +102,7 @@ const Skills = () => {
             to="https://en.wikipedia.org/wiki/SQL"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-white border-2 border-white flex  flex-col items-center gap-2 py-4'>
+            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-4'>
             <FontAwesomeIcon
               icon={faDatabase}
               className='text-8xl' />
@@ -114,7 +114,7 @@ const Skills = () => {
             to="https://www.figma.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-white border-2 border-white flex  flex-col items-center gap-2 py-4'>
+            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-4'>
             <FontAwesomeIcon
               icon={faFigma}
               className='text-8xl' />
