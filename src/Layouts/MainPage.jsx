@@ -3,6 +3,7 @@ import Home from '../Components/Pages/Home'
 import Skills from '../Components/Pages/Skills'
 import About from '../Components/Pages/About'
 import Contact from '../Components/Pages/Contact'
+import Projects from '../Components/Pages/Projects'
 
 
 const MainPage = () => {
@@ -11,8 +12,9 @@ const MainPage = () => {
         <div>
           <NavBar />
           <Home />
-          <About />
+          {/* <About /> */}
           <Skills />
+          <Projects />
           <Contact />
         </div>
       

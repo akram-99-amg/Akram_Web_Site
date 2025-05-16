@@ -21,11 +21,11 @@ const NavBar = () => {
 
       <div >
         <ul className=' hidden sm:flex sm:gap-8 sm:text-xl '>
-          <li className='hover:text-blue-400 cursor-pointer'>
+          {/* <li className='hover:text-blue-400 cursor-pointer'>
             <Link to="home" smooth={true} duration={500} >
               Home
             </Link>
-          </li>
+          </li> */}
 
           <li className='hover:text-blue-400 cursor-pointer'>
             <Link to="home" smooth={true} duration={500} >
@@ -36,6 +36,12 @@ const NavBar = () => {
           <li className='hover:text-blue-400 cursor-pointer'>
             <Link to="skills" smooth={true} duration={500} >
               Skills
+            </Link>
+          </li>
+
+          <li className='hover:text-blue-400 cursor-pointer'>
+            <Link to="projects" smooth={true} duration={500} >
+              Projects
             </Link>
           </li>
 
@@ -68,21 +74,31 @@ const NavBar = () => {
                 Home
               </Link>
             </li>
+
             <li className='hover:text-blue-400 hover:bg-blue-100 focus:bg-blue-100 w-[80%] h-7 text-center rounded-md cursor-pointer'>
               <Link to="about" smooth={true} duration={500} >
                 About
               </Link>
             </li>
+
             <li className='hover:text-blue-400 hover:bg-blue-100 focus:bg-blue-100 w-[80%] h-7 text-center rounded-md cursor-pointer'>
               <Link to="skills" smooth={true} duration={500} >
                 Skills
               </Link>
             </li>
+
+            <li className='hover:text-blue-400 hover:bg-blue-100 focus:bg-blue-100 w-[80%] h-7 text-center rounded-md cursor-pointer'>
+              <Link to="projects" smooth={true} duration={500} >
+                Projects
+              </Link>
+            </li>
+
             <li className='hover:text-blue-400 hover:bg-blue-100 focus:bg-blue-100 w-[80%] h-7 text-center rounded-md cursor-pointer'>
               <Link to="contact" smooth={true} duration={500} >
                 Contact
               </Link>
             </li>
+
             <li className='hover:text-blue-400 hover:bg-blue-100 focus:bg-blue-100 w-[80%] h-7 text-center rounded-md cursor-pointer'>
               <a
                 href="/CV/CV.pdf"
