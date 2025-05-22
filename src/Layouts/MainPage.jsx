@@ -4,18 +4,23 @@ import Skills from '../Components/Pages/Skills'
 import About from '../Components/Pages/About'
 import Contact from '../Components/Pages/Contact'
 import Projects from '../Components/Pages/Projects'
+import { BackgroundLines } from '../Components/Background/Background'
 
 
 const MainPage = () => {
   return (
-    <div className='min-w-screen min-h-screen bg-gray-800'>
+    <div className='relative min-w-screen min-h-screen bg-gray-800 overflow-hidden'>
         <div>
+          
           <NavBar />
+          
           <Home />
+          
           {/* <About /> */}
           <Skills />
           <Projects />
           <Contact />
+          
         </div>
       
     </div>

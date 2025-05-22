@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { BackgroundLines } from "../Background/Background";
 
 const Home = () => {
   return (
+    <BackgroundLines className="relative overflow-hidden px-4 flex items-center justify-center flex-col text-white py-16 sm:py-[70px] sm:px-[150px] px-8">
     <div id="home" className='sm:py-[70px] py-16 sm:px-[150px] px-8  text-white flex flex-col gap-7 font-semibold text-xl sm:text-2xl   '>
+
 
       <h2 className='text-4xl pt-4'>Hi, <span className='text-3xl'>I'm</span> <span className='font-semibold text-3xl sm:text-3xl'> Akram Mazegh</span>  </h2>
 
@@ -49,6 +52,7 @@ const Home = () => {
 
 
     </div>
+    </BackgroundLines>
   )
 }
 
