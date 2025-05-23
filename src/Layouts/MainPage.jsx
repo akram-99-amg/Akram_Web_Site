@@ -4,7 +4,7 @@ import Skills from '../Components/Pages/Skills'
 import About from '../Components/Pages/About'
 import Contact from '../Components/Pages/Contact'
 import Projects from '../Components/Pages/Projects'
-import { BackgroundLines } from '../Components/Background/Background'
+
 
 
 const MainPage = () => {

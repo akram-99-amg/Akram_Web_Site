@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { BackgroundLines } from "../Background/Background";
+
+import { BackgroundBeams } from "../Background/background-beams";
 
 const Home = () => {
   return (
-    <BackgroundLines className="relative overflow-hidden px-4 flex items-center justify-center flex-col text-white py-16 sm:py-[70px] sm:px-[150px] px-8">
-    <div id="home" className='sm:py-[70px] py-16 sm:px-[150px] px-8  text-white flex flex-col gap-7 font-semibold text-xl sm:text-2xl   '>
+    
+    <div id="home" className='bg-black  sm:py-[70px] py-16 sm:px-[150px] px-8  text-white flex flex-col gap-7 font-semibold text-xl sm:text-2xl   '>
+<BackgroundBeams  />
 
-
-      <h2 className='text-4xl pt-4'>Hi, <span className='text-3xl'>I'm</span> <span className='font-semibold text-3xl sm:text-3xl'> Akram Mazegh</span>  </h2>
+      <h2 className='text-4xl pt-4 z-10'>Hi, <span className='text-3xl'>I'm</span> <span className='font-semibold text-3xl sm:text-3xl'> Akram Mazegh</span>  </h2>
 
       <p className='font-normal'>I'm passionate web developer</p>
       <div className=' text-lg pr-10 mb-4'>
@@ -20,13 +21,13 @@ const Home = () => {
         and contribute to exciting development projects.
       </div>
 
-      <div className='flex justify-center sm:justify-start gap-12 text-5xl' >
+      <div className=' z-10 flex justify-center sm:justify-start gap-12 text-5xl' >
         <Link
           to="https://github.com/akram-99-amg?tab=repositories"
           target="_blank"
           >
           <FontAwesomeIcon
-            className='hover:text-gray-300 cursor-pointer'
+            className='hover:text-gray-300'
             icon={faGithub} />
         </Link>
 
@@ -35,7 +36,7 @@ const Home = () => {
         target="_blank"
         >
           <FontAwesomeIcon
-            className='hover:text-gray-300 cursor-pointer'
+            className='hover:text-gray-300 '
             icon={faLinkedin} />
         </Link>
 
@@ -44,7 +45,7 @@ const Home = () => {
         target="_blank"
         >
           <FontAwesomeIcon
-            className='hover:text-gray-300 cursor-pointer'
+            className='hover:text-gray-300 '
             icon={faInstagram} />
         </Link>
       </div>
@@ -52,7 +53,7 @@ const Home = () => {
 
 
     </div>
-    </BackgroundLines>
+    
   )
 }
 

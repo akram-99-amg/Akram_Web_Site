@@ -5,7 +5,7 @@ import { faHtml5, faCss3Alt, faJs, faReact, faGitAlt, faGithub, faFigma } from '
 const Skills = () => {
   return (
     <div>
-      <div id="skills" className='bg-[#112d42] mt-6 '>
+      <div id="skills" className='bg-[#112d42] pt-6 '>
         <h1 className='mb-4 pt-3 text-center text-8xl text-white font-semibold'>Skills</h1>
 
         <div className='grid grid-cols-2 md:grid-cols-3 font-mono text-2xl gap-3 py-4 mx-12 sm:mx-24'>

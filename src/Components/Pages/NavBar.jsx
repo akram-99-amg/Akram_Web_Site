@@ -8,7 +8,7 @@ const NavBar = () => {
   const [menu, setMenu] = useState(false)
 
   return (
-    <div className='fixed top-0 left-0 z-50 w-full h-16 bg-gray-700 sm:bg-gray-800 rounded-b-md flex items-center justify-between sm:px-8 py-3 text-2xl text-white '>
+    <div className='fixed top-1 left-0 right-0 mx-6  z-50  h-16 bg-gray-700 sm:bg-gray-800 rounded-md flex items-center justify-between sm:px-8 py-3 text-2xl text-white '>
 
       <div className='flex w-full justify-around items-center sm:w-auto sm:justify-start '>
         <p>Akram Mazegh</p>

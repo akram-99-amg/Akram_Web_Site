@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import emailjs from "emailjs-com"
+import { BackgroundLines } from "../Background/Background";
+
 
 const Contact = () => {
   const [name, setName] = useState("")
@@ -34,8 +36,9 @@ const Contact = () => {
   }
 
   return (
-    <div id='contact'>
-      <h1 className='mb-4 pt-3 text-center text-6xl sm:text-8xl text-white font-semibold'>
+    <BackgroundLines className="relative  overflow-hidden flex items-center justify-center flex-col text-white py-16 sm:py-[70px] sm:px-[150px] px-8">
+    <div id='contact' className='z-10'>
+      <h1 className='mb-6 pt-3 text-center text-6xl sm:text-8xl text-white font-semibold'>
         Contact Me
       </h1>
 
@@ -104,6 +107,7 @@ const Contact = () => {
       </form>
 
     </div>
+    </BackgroundLines>
   )
 }
 
