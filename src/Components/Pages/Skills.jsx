@@ -5,10 +5,10 @@ import { faHtml5, faCss3Alt, faJs, faReact, faGitAlt, faGithub, faFigma } from '
 const Skills = () => {
   return (
     <div>
-      <div id="skills" className='bg-[#112d42] pt-6 '>
+      <div id="skills" className=' pt-6 '>
         <h1 className='mb-4 pt-3 text-center text-8xl text-white font-semibold'>Skills</h1>
 
-        <div className='grid grid-cols-2 md:grid-cols-3 font-mono text-2xl gap-3 py-4 mx-12 sm:mx-24'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 font-mono text-2xl gap-5 py-4 mx-12 sm:mx-24'>
 
           {/* <Link
             to="https://developer.mozilla.org/en-US/docs/Web/HTML"
@@ -47,7 +47,7 @@ const Skills = () => {
             to="https://react.dev/"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-4'>
+            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-5 hover:shadow-lg hover:shadow-white transition delay-150 duration-300 ease-in-out hover:-translate-y-2 '>
             <FontAwesomeIcon
               icon={faReact}
               className='text-8xl' />
@@ -58,7 +58,7 @@ const Skills = () => {
             to="https://tailwindcss.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-white border-2 border-white rounded-md flex flex-col justify-center items-center gap-2 py-4'>
+            className='text-white border-2 border-white rounded-md flex flex-col justify-center items-center gap-2 py-5 hover:shadow-lg hover:shadow-white transition delay-150 duration-300 ease-in-out hover:-translate-y-2'>
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -79,7 +79,7 @@ const Skills = () => {
             to="https://git-scm.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-4'>
+            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-3 py-5 hover:shadow-lg hover:shadow-white transition delay-150 duration-300 ease-in-out hover:-translate-y-2'>
             <FontAwesomeIcon
               icon={faGitAlt}
               className='text-8xl' />
@@ -90,7 +90,7 @@ const Skills = () => {
             to="https://github.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-4'>
+            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-5 hover:shadow-lg hover:shadow-white transition delay-150 duration-300 ease-in-out hover:-translate-y-2'>
             <FontAwesomeIcon
               icon={faGithub}
               className='text-8xl' />
@@ -102,7 +102,7 @@ const Skills = () => {
             to="https://en.wikipedia.org/wiki/SQL"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-4'>
+            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-5 hover:shadow-lg hover:shadow-white transition delay-150 duration-300 ease-in-out hover:-translate-y-2'>
             <FontAwesomeIcon
               icon={faDatabase}
               className='text-8xl' />
@@ -114,7 +114,7 @@ const Skills = () => {
             to="https://www.figma.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-4'>
+            className='text-white border-2 border-white rounded-md flex  flex-col items-center gap-2 py-5 hover:shadow-lg hover:shadow-white transition delay-150 duration-300 ease-in-out hover:-translate-y-2'>
             <FontAwesomeIcon
               icon={faFigma}
               className='text-8xl' />

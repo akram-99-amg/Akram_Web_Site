@@ -9,7 +9,7 @@ import Projects from '../Components/Pages/Projects'
 
 const MainPage = () => {
   return (
-    <div className='relative min-w-screen min-h-screen bg-gray-800 overflow-hidden'>
+    <div className='relative min-w-screen min-h-screen bg-black overflow-hidden'>
         <div>
           
           <NavBar />
