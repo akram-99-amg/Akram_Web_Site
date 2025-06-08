@@ -2,8 +2,10 @@ import {Link} from "react-router-dom"
 
 const Projects = () => {
   return (
-    <div id='projects'>
-      <h1 className='mb-4 pt-3 text-center text-6xl sm:text-8xl text-white font-semibold'>
+    <div id='projects'
+    className="animate-slideFadeLeft"
+    >
+      <h1 className='mb-8 pt-9 text-center text-6xl sm:text-8xl text-white font-semibold '>
         Projects
       </h1>
       <div className='sm:flex sm:justify-around  gap-8 grid  '>

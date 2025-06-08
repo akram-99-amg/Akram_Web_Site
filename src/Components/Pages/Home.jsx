@@ -7,7 +7,7 @@ import { BackgroundBeams } from "../Background/background-beams";
 const Home = () => {
   return (
     
-    <div id="home" className='bg-black  sm:py-[70px] py-16 sm:px-[150px] px-8  text-white flex flex-col gap-7 font-semibold text-xl sm:text-2xl   '>
+    <div id="home" className='bg-black  sm:py-[70px] py-16 sm:px-[150px] px-8  text-white flex flex-col gap-7 font-semibold text-xl sm:text-2xl animate-slideFadeDown    '>
 <BackgroundBeams  />
 
       <h2 className='text-4xl pt-4 z-10'>Hi, <span className='text-3xl'>I'm</span> <span className='font-semibold text-3xl sm:text-3xl'> Akram Mazegh</span>  </h2>

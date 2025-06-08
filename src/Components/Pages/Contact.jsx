@@ -37,7 +37,7 @@ const Contact = () => {
 
   return (
     <BackgroundLines className="relative  overflow-hidden flex items-center justify-center flex-col text-white py-16 sm:py-[70px] sm:px-[150px] px-8">
-    <div id='contact' className='z-10'>
+    <div id='contact' className='z-10 animate-slideFadeUp'>
       <h1 className='mb-6 pt-3 text-center text-6xl sm:text-8xl text-white font-semibold'>
         Contact Me
       </h1>
