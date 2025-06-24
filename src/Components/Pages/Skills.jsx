@@ -18,7 +18,7 @@ const Skills = () => {
           Skills
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 font-mono text-2xl gap-5 py-4 mx-12 sm:mx-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 font-mono text-2xl gap-5 pt-4 pb-16 mx-12 sm:mx-24 ">
           {/* <Link
             to="https://developer.mozilla.org/en-US/docs/Web/HTML"
             target="_blank"

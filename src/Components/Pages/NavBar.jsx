@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { topNavBar } from "../utils/navbar";
 
 const NavBar = () => {
   const [menu, setMenu] = useState(false);
@@ -19,9 +18,9 @@ const NavBar = () => {
       </div>
 
       <div>
-        {topNavBar.map((navbar) => (
+        {/* {topNavBar.map((navbar) => (
           <div key={navbar.name}></div>
-        ))}
+        ))} */}
       </div>
 
       <div>
